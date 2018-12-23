@@ -1,0 +1,24 @@
+// employee: employeeId, employeeName
+// department: departmentId, departmentName
+// employeeId, departmentId
+// employee 1 -> d1,d2,d3
+// employee 2 -> d1,d2,d3
+
+// query to get the fifth highest salary
+// department: salary
+
+select min(salary) from department group by department.salary desc order by count;
+select * from department having
+
+@RequestMapping("/users")
+@RestController
+
+users?name='ben'&job='computer scientist'
+users/name/{ben}/job/{computer scientist} @GET
+users/{id} @PUT
+users/{id}
+
+@PutMapping("/{id}")
+public ResponseEntity<?> putRequest(@PathVariable("{id}") int id, @RequestBody PutRequestObject putRequestObject) {
+    return new ResponseEntity<>(putR
+}
