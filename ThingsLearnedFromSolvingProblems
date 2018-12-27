@@ -1,7 +1,11 @@
+For searching in-order array for highest/lowest/most value greedy algorithm and for loop because it is linear
+
 Use visualization of (Row, Column) with Matrix for help:
     0,0 0,1 0,2
     1,0 1,1 1,2
     2,0 2,1 2,2
+
+Use for loop when solving matrix. While doesn't account for final increment/decrement
 
 For when you don't know how to start solving problem, solve base case (input of minimum size), and then the next case
 (input of next minimum size) until you develop a pattern:
